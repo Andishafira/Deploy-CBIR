@@ -61,9 +61,6 @@ def proses1():
     elif mode == 'sauvola':
         img_res = process.sauvola_thresh(img)
         cv2.imwrite("/".join([target, 'result.jpg']),img_res)
-    elif mode == 'cbir':
-        img_res = process.cbir()
-        cv2.imwrite("/".join([target, 'result.jpg']),img_res)
     # forward to processing page
     return redirect('/')
 

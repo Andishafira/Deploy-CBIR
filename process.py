@@ -42,17 +42,8 @@ def sauvola_thresh(img):
 
 def cbir():
     im1 = cv2.imread('static/images/000118 (5).png')
-    im_resized1 = cv2.resize(im1, (225, 225), interpolation=cv2.INTER_LINEAR)
-    plt.imshow(cv2.cvtColor(im_resized1, cv2.COLOR_BGR2RGB))
-    plt.show()
 
     im2 = cv2.imread('static/images/000115 (4).png')
-    im_resized2 = cv2.resize(im2, (225, 225), interpolation=cv2.INTER_LINEAR)
-    plt.imshow(cv2.cvtColor(im_resized2, cv2.COLOR_BGR2RGB))
-    plt.show()
 
     im3 = cv2.imread('static/images/000119 (6).png')
-    im_resized3 = cv2.resize(im3, (225, 225), interpolation=cv2.INTER_LINEAR)
-    plt.imshow(cv2.cvtColor(im_resized3, cv2.COLOR_BGR2RGB))
-    plt.show()
     return 0

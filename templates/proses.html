@@ -4,7 +4,7 @@
     <section class="contact-section" style="padding-top:50px;" id="predict1">
         <div class="container">
             <div class="title-box centred" id="architechture">
-                <div class="sec-title"><a class="sec-title" href="#predict1">Preprocessing</a> & <a class="sec-title" href="#predict2">CBIR</a><br></div><br>
+                <div class="sec-title"><a class="sec-title" href="#predict1">CBIR</a> Pneumonia <a class="sec-title" href="#predict2">CT Scan</a><br></div><br>
             </div>
 
             <!--image preview-->
@@ -16,9 +16,6 @@
                     <div class="column" >
                         <div class="form-check form-check-inline"> 
                             <select name="select_thresholding" id="selected_thresholding">
-                                <option value='otsu' name="mode">                             Otsu Thresholding       </option>
-                                <option value='niblack' name="mode">                          Niblack Thresholding    </option>
-                                <option value='sauvola' name="mode">                          Sauvola Thresholding    </option>
                                 <option value='cbir' name="mode">                             CBIR                    </option>
                             </select>
                         </div>   
@@ -55,7 +52,11 @@
                 <div class="divTableCell" style="width: 50%;">
                     <div class="sec-title" style="font-size: 40px;">Result</div><br>
                     <img style="padding-top: 15%;padding-bottom: 15%;width: 70%;"
-                    src="{{ url_for('static', filename='images/result.jpg') }}">
+                    src="{{ url_for('static', filename='images/000118 (5).png') }}">
+                    <img style="padding-top: 15%;padding-bottom: 15%;width: 70%;"
+                    src="{{ url_for('static', filename='images/000119 (6).png') }}">
+                    <img style="padding-top: 15%;padding-bottom: 15%;width: 70%;"
+                    src="{{ url_for('static', filename='images/000118 (7).png') }}">
                 </div>
             </div>
             </div>
